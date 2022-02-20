@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+.main, .back-button-section {
+    width: 100%;
+}
+.main {
+	background-color: rgb(93, 74, 177);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.project-section {
+    padding: 30px 0;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.project-link {
+    text-decoration: none;
+    color: #fff;
+}
+.img, .project-name {
+    width: 125px;
+}
+.img {
+    height: 125px;
+    object-fit: cover;
+}
+.project-name {
+    text-align: center;
+}
+.project-name:hover {
+    color: rgb(199, 199, 199);
+}
+.back-button-section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.back-button {
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rgb(12, 12, 15);
+}
+.back-button:hover {
+    cursor: pointer;
+    background-color: rgb(39, 35, 35);
+}
+.footer {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    background-color: #444444;
+    padding: 12.5px 0;
+    font-size: 1.5em;
+}
+.fa {
+    color: #FFFFFF;
+    padding: 10px;
+    text-decoration: none;
+}
