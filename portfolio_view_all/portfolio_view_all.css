@@ -42,11 +42,11 @@
 .back-button-section {
     display: flex;
     justify-content: center;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
 }
 .back-button {
-    font-size: 1em;
-    font-weight: 600;
+    font-size: 1.25em;
+    font-weight: 500;
     border-radius: 10px;
     border: 0;
     padding: 10px 20px;
@@ -69,4 +69,33 @@
     color: #FFFFFF;
     padding: 10px;
     text-decoration: none;
+}
+
+@media screen and (max-width: 750px) {
+    .project-section {
+        row-gap: 10px;
+        column-gap: 20px;
+    }
+    .img, .project-name {
+        width: 75px;
+    }
+    .img {
+        height: 75px;
+    }
+    .project-name, .back-button {
+        font-size: 0.6875em;
+    }
+    .back-button-section {
+        padding-bottom: 25px;
+    }
+    .back-button {
+        border-radius: 7.5px;
+        padding: 7.5px 15px;
+    }
+    .footer {
+        font-size: 1.25em;
+    }
+    .social-icons {
+        display: flex;
+    }
 }
