@@ -116,8 +116,12 @@
 }
 .follow {
     font-size: 1.375em;
-    text-align: center;
+    font-weight: 600;
     width: 140px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .social-icons {
     display: flex; 
@@ -184,6 +188,7 @@
     .follow {
         font-size: 1.125em;
         width: 100px;
+        height: 40px;
     }
     .social-icons {
         font-size: 1.5em;
